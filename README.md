@@ -1,11 +1,17 @@
+<div align="justify" style="font-family: 'Poppins', sans-serif; text-align: justify;">
+
 # Capacitor Condition Monitoring: Architecture & Showcase
 
-This repository serves as the public technical showcase for our Danfoss Innovator Award 2026 1st Prize project. 
+This repository serves as the public technical showcase for our non-invasive condition monitoring project. 
 
 ## System Architecture
 Our solution leverages a hybrid stack spanning edge hardware, physics simulations, and cloud-connected machine learning.
 
+<br>
+
 ![Architecture Diagram](./assets/architecture_diagram.png)
+
+<br>
 
 1. **Physical Layer (Simulation):** MATLAB/Simulink models the inverter and DC link capacitor degradation over time, generating voltage ripple data.
 2. **Edge Processing (ESP32):** An ESP32 microcontroller calculates real-time ESR and Capacitance using optimized C++ impedance formulas based on the 6th and 12th harmonic frequencies.
@@ -19,4 +25,9 @@ Our solution leverages a hybrid stack spanning edge hardware, physics simulation
 * **Real-Time Execution:** The end-to-end pipeline operates continuously, updating the dashboard with sub-second latency.
 
 ## Media
+
+<br>
+
 ![Dashboard Preview](./assets/dashboard.png)
+
+</div>
